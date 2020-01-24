@@ -1,12 +1,10 @@
 // B U S I N E S S   L O G I C
 var boopThis = function (number) {
-  var number1 = parseInt(number);
-  console.log('number in boop function is', number)
-  if (number1 === NaN) {
-    console.log('number is NaN', number1);
+  var number = parseInt(number);
+  if (isNaN(number)) {
     return 'please enter a number';
   } else {
-    return number1
+    return number
   }
 };
 
@@ -17,6 +15,7 @@ $(document).ready(function () {
     var number = $('#userNumber').val();
 
     console.log('number is:', number)
+
     $('#output').show();
     $('#output').text(boopThis(number))
   });
