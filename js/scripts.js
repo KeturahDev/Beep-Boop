@@ -38,7 +38,7 @@ $(document).ready(function () {
     event.preventDefault();
     var number = $('#userNumber').val();
 
-    $('#output').show();
+    $('.well').show();
     $('#output').text(boopThis(number))
   });
 });

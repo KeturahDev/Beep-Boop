@@ -1,6 +1,7 @@
 body{
-  margin: 4%;
   background-image: radial-gradient(circle, #ffa7f0, #fbb5f6, #f7c2fb, #f5cefe, #f4daff);
+  color: #670055
+  
 }
 
 .jumbotron {
@@ -9,8 +10,16 @@ body{
   font-weight: 900;
 }
 
-#output {
+.better{
+  text-align: center;
+}
+
+.well{
+  background-color: rgb(196, 245, 204);
+  margin-left: 15%;
+  margin-right: 15%;
   display: none;
 }
+
 
 
