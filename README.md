@@ -2,7 +2,7 @@
 By Keturah Howard, January 24th 2020
 
 ## Description
-  This application will take any numberical input and feed back to you a very strange string of values includning *'beeps'* and *'boops'* and phrases alike. Can you crack the code of what this whacky program is doing? I had to. This is a Friday project assigned by Epicodus to practice branching, loops, and other fun stuff covered in previous projects.
+  This application will take any numberical input and feed back to you a very strange string of values includning *'beeps'* and *'boops'* and phrases alike. Can you crack the code of what this whacky program is doing? I had to. This is a Friday project assigned by Epicodus to practice branching, loops, and other fun stuff covered in previous projects. Let's get boopy!
 
 ## Behavioral Driven Development
   *Heres a list of the specific behaviors I wanted to be acheived throughout the development process, starting from most basic to complex.*
@@ -30,8 +30,8 @@ By Keturah Howard, January 24th 2020
     - output: 0, 'beep', 'boop', "I'm sorry Dave, I can't do that.", 4, 5, 6, 7, 8, 9, 'beep', 'beep', 'boop', "I'm sorry Dave, I can't do that.", 'beep', 'beep', 'beep', 'beep', 'beep', 'beep', 'boop', 'boop', 'boop', "I'm sorry Dave, I can't do that.", 'boop'
 
 ## Set Up 
-  To set up you can simply interact with the webpage by clicking [here](filler/) to access the gh-pages for this repository. Or! To view the code and in Visual Studio and all that jazz, follow the steps bellow. 
-  1. Click on the *clone or download* button of this repository. Copy the link that pops up.
+  To set up you can simply interact with the webpage by clicking [here](https://keturahdev.github.io/Beep-Boop/) to access the gh-pages for this repository. Or! To view the code and in Visual Studio and all that jazz, follow the steps bellow. 
+  1. Click on the *clone or download* button of this repository. You can download the project file clicking the **"Download Zip"** button, double clicking the file in downloads, and navigating to the index.html file and double clicking that. *Or*, you can copy the link that pops up when you've clicked the *clone or download* button above this README.md file.
   2. Navigate to your terminal, where you have previously installed git (if you have not done this yet, go ahead and do so now).
   3. In terminal, change your directory to desktop, and then type **"git clone https://github.com/KeturahDev/Beep-Boop"**.
   4. When you've pressed enter, my project will be cloned onto your desktop, and now you can change directory into it and type **"code ."** to open the projects files in Visual Studio Code!
