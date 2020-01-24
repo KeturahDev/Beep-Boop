@@ -1,3 +1,16 @@
+body{
+  margin: 4%;
+  background-image: radial-gradient(circle, #ffa7f0, #fbb5f6, #f7c2fb, #f5cefe, #f4daff);
+}
+
+.jumbotron {
+  text-align: center;
+  background:transparent !important;
+  font-weight: 900;
+}
+
 #output {
   display: none;
 }
+
+

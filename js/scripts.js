@@ -38,8 +38,6 @@ $(document).ready(function () {
     event.preventDefault();
     var number = $('#userNumber').val();
 
-    console.log('number is:', number)
-
     $('#output').show();
     $('#output').text(boopThis(number))
   });
