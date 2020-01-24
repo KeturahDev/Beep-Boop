@@ -1,10 +1,11 @@
 body{
   /* background-image: radial-gradient(circle, #ffa7f0, #fbb5f6, #f7c2fb, #f5cefe, #f4daff); */
-  color: #e900c2;
+  color: #d300b0;
+  /* color: #4f0042; */
   background-color: black;
   margin-bottom: 10%;
 
-  background-image:url('img/snowy.gif');
+  /* background-image:url('img/snowy.gif'); */
   background-size: cover;
 
   /* background-size:100%;
@@ -20,14 +21,19 @@ body{
   font-weight: 900;
 }
 
-.imgy {
+.imgy-L {
   display: flex;
-  justify-content: center;
+  float: left;
+  /* justify-content: center; */
 
   /* width:100%;
   height:100%; */
-  background-size: cover;
+  /* background-size: cover; */
 
+}
+.imgy-R{
+  display: flex;
+  float: right;
 }
 
 .better{
