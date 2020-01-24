@@ -1,53 +1,27 @@
 body{
-  /* background-image: radial-gradient(circle, #ffa7f0, #fbb5f6, #f7c2fb, #f5cefe, #f4daff); */
   color: #d300b0;
-  /* color: #4f0042; */
   background-color: black;
   margin-bottom: 10%;
-
-  /* background-image:url('img/snowy.gif'); */
-  background-size: cover;
-
-  /* background-size:100%;
-  background-repeat: repeat-y;
-  background-attachment: fixed;
-  height:100%;
-  width:100%; */
 }
-
 .jumbotron {
   text-align: center;
   background:transparent !important;
   font-weight: 900;
 }
-
 .imgy-L {
   display: flex;
   float: left;
-  /* justify-content: center; */
-
-  /* width:100%;
-  height:100%; */
-  /* background-size: cover; */
-
 }
 .imgy-R{
   display: flex;
   float: right;
 }
-
-.better{
-  text-align: center;
-}
-
 .well{
   background-color: rgb(196, 245, 204);
   margin-left: 15%;
   margin-right: 15%;
   display: none;
   color: #94007c;
-
-  /* text-align: center; */
 }
 
 
