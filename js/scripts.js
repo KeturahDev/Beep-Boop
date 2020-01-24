@@ -13,6 +13,15 @@ var boopThis = function (number) {
       for (var i = 0; i <= number; i++) {
         numberArray.push(i);
       }
+      numberArray = numberArray.map(function (number) {
+        if (String(number).includes(2)) {
+          number = 'boop';
+        }
+        if (String(number).includes(1)) {
+          number = 'beep';
+        }
+        return number;
+      })
       return numberArray;
     };
 
