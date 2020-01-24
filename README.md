@@ -33,7 +33,7 @@ By Keturah Howard, January 24th 2020
   To set up you can simply interact with the webpage by clicking [here](filler/) to access the gh-pages for this repository. Or! To view the code and in Visual Studio and all that jazz, follow the steps bellow. 
   1. Click on the *clone or download* button of this repository. Copy the link that pops up.
   2. Navigate to your terminal, where you have previously installed git (if you have not done this yet, go ahead and do so now).
-  3. In terminal, change your directory to desktop, and then type **"git clone (url link)"**.
+  3. In terminal, change your directory to desktop, and then type **"git clone https://github.com/KeturahDev/Beep-Boop"**.
   4. When you've pressed enter, my project will be cloned onto your desktop, and now you can change directory into it and type **"code ."** to open the projects files in Visual Studio Code!
 
 ## Technologies Used
