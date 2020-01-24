@@ -3,11 +3,13 @@ body{
   background-color: black;
   margin-bottom: 10%;
 }
+
 .jumbotron {
   text-align: center;
   background:transparent !important;
   font-weight: 900;
 }
+
 .imgy-L {
   display: flex;
   float: left;
@@ -16,6 +18,11 @@ body{
   display: flex;
   float: right;
 }
+
+.center{
+  text-align: center;
+}
+
 .well{
   background-color: rgb(196, 245, 204);
   margin-left: 15%;
