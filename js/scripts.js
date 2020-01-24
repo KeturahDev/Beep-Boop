@@ -1,5 +1,6 @@
 // B U S I N E S S   L O G I C
 var boopThis = function (number) {
+  number = number.trim()
 
   if (number.includes(' ', ',')) {
     return 'please enter only one number'
@@ -8,13 +9,11 @@ var boopThis = function (number) {
     if (isNaN(number)) {
       return 'please enter a number';
     } else {
-      // var numberArray = number.split(" ")
-      // if (numberArray.length > 1) {
-      //   return 'please enter only one number';
-      // } else {
-      //   return number;
-      // }
-      return number;
+      var numberArray = [];
+      for (var i = 0; i <= number; i++) {
+        numberArray.push(i);
+      }
+      return numberArray;
     };
 
   }
