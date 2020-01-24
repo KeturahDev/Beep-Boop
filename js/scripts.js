@@ -14,6 +14,9 @@ var boopThis = function (number) {
         numberArray.push(i);
       }
       numberArray = numberArray.map(function (number) {
+        if (String(number).includes(3)) {
+          number = ' Im sorry Davidson, I cannot do that which of you speaketh';
+        }
         if (String(number).includes(2)) {
           number = 'boop';
         }
