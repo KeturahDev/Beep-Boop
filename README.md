@@ -7,6 +7,9 @@ By Keturah Howard, January 24th 2020
 ## Behavioral Driven Development
   *Heres a list of the specific behaviors I wanted to be acheived throughout the development process, starting from most basic to complex.*
 
+  - program returns number in output:
+    - input: '66'
+    - output: '66'
   - program only accepts numbers as inputs:
     - input: 'hello'
     - output: 'Please input a number'
